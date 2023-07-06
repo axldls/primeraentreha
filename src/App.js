@@ -1,11 +1,18 @@
 import './App.css';
-
+import NavBar from './components/NavBar';
 function App() {
   return (
-    <div className="App">
-      <h1>Hola mundo</h1>
-      <h2>primer app de react</h2>
-    </div>
+    <header className="App">
+    <h1>AxMusic</h1>
+    <nav>
+    <ul>
+        <li>Guitarras</li>
+        <li>Pianos</li>
+        <li>Baterias</li>
+      </ul>
+    </nav>
+    
+    </header>
   );
 }
 
